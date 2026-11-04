@@ -62,7 +62,7 @@ const arr: (string | number | boolean | undefined)[] = ["playwright", "cypress",
 
 const num: (number | string)[] = [1, 2, 3, 4, 5, "str"]
 
-
+// [number, number, number, number, number, string] 
 
 
 
@@ -82,19 +82,19 @@ const obj: {name: string, version: number, isPopular: boolean, country: string} 
 }
 
 
-function print(): void {
-    console.log("playwright")
-}
+// function print(): void {
+//     console.log("playwright")
+// }
 
 
-function print(): string {
-    return "playwright"
-}
+// function print(): string {
+//     return "playwright"
+// }
 
 
-function print(): number {
-    return 11
-}
+// function print(): number {
+//     return 11
+// }
 
 
 
